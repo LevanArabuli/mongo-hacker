@@ -10,7 +10,7 @@
  */
 
 mongo_hacker_config = {
-  verbose_shell:  true,             // additional verbosity
+  verbose_shell:  false,             // additional verbosity
   index_paranoia: false,            // querytime explain
   enhance_api:    true,             // additonal api extensions
   indent:         2,                // number of spaces for indent

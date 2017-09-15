@@ -1,4 +1,4 @@
-setVerboseShell(true);
+setVerboseShell(typeof mongo_hacker_config.verbose_shell !== 'undefined' && mongo_hacker_config.verbose_shell);
 
 DBQuery.prototype._prettyShell = true
 
